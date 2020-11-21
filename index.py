@@ -7,7 +7,7 @@ import json
 from pathlib import Path
 from urllib.request import urlopen
 from discord_webhook import DiscordWebhook, DiscordEmbed
-webhookurl='https://discord.com/api/webhooks/779427177720578121/aUcW9Lj5RHAshQgbsfamJJ_UmeEhIvsbcahlI6ceC_fHJIz5oTMUbSTvtPOsXAFTZxSy'
+webhookurl='WEBHOOK URL HERE'
 
 def ipInfo():
     url = 'http://ipinfo.io/json'
