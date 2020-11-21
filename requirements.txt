@@ -1,0 +1,14 @@
+1)Install Python (https://www.python.org/downloads/)
+
+2) ---- index.py: ----
+-Put Webhook Url Line:10 (webhookurl="URL HERE")
+
+3) ---- Packages: ----
+- discord_webhook
+- pathlib
+- pyinstaller
+(pip install discord_webhook pathlib pyinstaller)
+(pyinstaller for make executable)
+
+4) ---- Make Executable: ----
+- pyinstaller --onefile index.py (need pyinstaller module)
