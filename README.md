@@ -1,5 +1,5 @@
 # Token_And_Ip_Grabber
-A Token and IP Grabber made with Python
+A Discord Token and IP Grabber made with Python using Webhooks
 
 # Installation
 1) Install Python (https://www.python.org/downloads/)
